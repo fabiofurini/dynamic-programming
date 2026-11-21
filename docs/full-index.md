@@ -1,5 +1,40 @@
 # Full index
 
+<!-- collana-organizzazione -->
+## How to use these notes
+
+- **Website and PDF.** Each chapter of the website is a chapter of the lecture notes, with the same numbers and the same colors; long chapters are split into one page per section.
+- **At the top of each chapter** a bar with the part, the PDF of the lecture notes, the slides, the exercises and the apps of the chapter; at the bottom, the link to the exercises.
+- **The problems.** The definition of each problem is on its page of the course [Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/): each chapter starts with the link.
+
+The boxes have the same colors as in the lecture notes:
+
+<div class="grid" markdown>
+
+!!! definizione "Definition"
+    The precise meaning of a new concept.
+
+!!! teorema "Theorem, proposition, observation"
+    A result to remember, with its hypotheses.
+
+!!! esempio "Example"
+    A computation worked out in full, one step at a time.
+
+!!! formula "Formula"
+    In pink the formulas to keep at hand: the recurrences of dynamic programming.
+
+!!! algoritmo "Algorithm"
+    The pseudo-code, step by step as in the lecture notes.
+
+!!! chiave ""
+    **In green** the key point to take away.
+
+</div>
+
+??? dimostrazione "Proof: opens with a click"
+    All proofs are included, but folded: first read the statement, then open the proof when you want to study it. The same holds for the solutions of the exercises.
+<!-- /collana-organizzazione -->
+
 All the pages of the website, in the order of the menu: the chapters with their sections and the other pages.
 
 ## [Principles](principles.md)
@@ -84,3 +119,4 @@ All the pages of the website, in the order of the menu: the chapters with their 
 - [Exercises](exercises/index.md)
 - [Lab](lab/index.md)
 - [Downloads](downloads.md)
+- [Self-assessment](self-assessment.md)

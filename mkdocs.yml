@@ -102,9 +102,11 @@ extra:
       lang: it
 
 extra_css:
+  - stylesheets/collana.css
   - stylesheets/extra.css?v=a25c6f8414
   - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraph.css
   - stylesheets/interattivi.css?v=c51ac2286b
+  - stylesheets/quiz.css?v=9e3792b41c
 
 markdown_extensions:
   - admonition
@@ -134,6 +136,7 @@ extra_javascript:
   - javascripts/gi-pd-0.js?v=99bf6d9546
   - javascripts/gi-pd-a.js?v=4449721623
   - javascripts/gi-pd-b.js?v=7c55f942e6
+  - javascripts/quiz.js?v=be7fae2b85
 
 
 nav:
@@ -196,6 +199,7 @@ nav:
       - "Miscellaneous problems":
           - "12. Coin change (CCP)": exercises/dp-coin-change.md
           - "13. Rod cutting (RCP)": exercises/dp-rod-cutting.md
+  - Quiz: self-assessment.md
   - Lab: lab/index.md
   - Downloads: downloads.md
   - Index: full-index.md

@@ -9,6 +9,10 @@ hide:
 
 # Dynamic Programming
 
+<!-- collana-riga -->
+<p class="collana-riga" markdown>A course of the <b>Operations Research and Mathematics</b> series · [all the courses](#the-series)</p>
+<!-- /collana-riga -->
+
 Teaching material conceived and developed by **[Fabio Furini](https://fabiofurini.github.io/)**, associate
 professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
@@ -16,11 +20,23 @@ professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
 Prerequisites: [Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/) for the problems and [Algorithms](https://fabiofurini.github.io/algorithms/) for pseudo-code, recursion and the analysis of algorithms.
 
-[:material-school: Study the course](dp-principles/index.md){ .md-button .md-button--primary }
-[:material-pencil: Practice](exercises/index.md){ .md-button }
-[:material-download: Get the materials](downloads.md){ .md-button }
+[Start :material-arrow-right:](dp-principles/index.md){ .md-button .md-button--primary }
+[:material-pencil: Exercises](exercises/index.md){ .md-button }
+[:material-gesture-tap: Lab](lab/index.md){ .md-button }
+[:material-clipboard-check-outline: Quiz](self-assessment.md){ .md-button }
+[:material-download: Downloads](downloads.md){ .md-button }
 
 </div>
+
+<!-- collana-app -->
+## Try it now
+
+The dynamic programming table for the knapsack: it fills one cell at a time, with the cells it depends on, then the solution is reconstructed.
+
+<div class="gi" data-grafico="oc-dp-knapsack"></div>
+
+[:material-gesture-tap: More apps in the lab](lab/index.md){ .md-button }
+<!-- /collana-app -->
 
 ## The parts of the course
 
@@ -68,6 +84,16 @@ The same entries as the menu: each card gives its part and its chapters in the l
 
     [:octicons-arrow-right-24: The chapters](miscellaneous-problems.md)
 
+-   :material-clipboard-check-outline: **Self-assessment**
+
+    ---
+
+    *Mock exam*
+
+    A new mock exam at every start: 13 questions, 33 points, with the solutions and links to the notes.
+
+    [:octicons-arrow-right-24: Test yourself](self-assessment.md)
+
 -   :material-gesture-tap: **Lab**
 
     ---
@@ -80,38 +106,109 @@ The same entries as the menu: each card gives its part and its chapters in the l
 
 </div>
 
-## How to use these notes
+<!-- collana-da-non-perdere -->
+## Don't miss
 
-- **Website and PDF.** Each chapter of the website is a chapter of the lecture notes, with the same numbers and the same colors; long chapters are split into one page per section.
-- **At the top of each chapter** a bar with the part, the PDF of the lecture notes, the slides, the exercises and the apps of the chapter; at the bottom, the link to the exercises.
-- **The problems.** The definition of each problem is on its page of the course [Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/): each chapter starts with the link.
+<div class="grid cards" markdown>
 
-The boxes have the same colors as in the lecture notes:
+-   :material-pencil-box-multiple: **Exercises with solutions**
 
-<div class="grid" markdown>
+    ---
 
-!!! definizione "Definition"
-    The precise meaning of a new concept.
+    Exercises for every chapter, each with its worked solution that opens with a click.
 
-!!! teorema "Theorem, proposition, observation"
-    A result to remember, with its hypotheses.
+    [:octicons-arrow-right-24: The exercises](exercises/index.md)
 
-!!! esempio "Example"
-    A computation worked out in full, one step at a time.
+-   :material-clipboard-check-outline: **Self-assessment quiz**
 
-!!! formula "Formula"
-    In pink the formulas to keep at hand: the recurrences of dynamic programming.
+    ---
 
-!!! algoritmo "Algorithm"
-    The pseudo-code, step by step as in the lecture notes.
+    A new mock exam at every start: 13 questions, 33 points, with the solution and the link to the notes. Downloads also has the full question bank.
 
-!!! chiave ""
-    **In green** the key point to take away.
+    [:octicons-arrow-right-24: Test yourself](self-assessment.md)
+
+-   :material-gesture-tap: **Interactive lab**
+
+    ---
+
+    Apps running in the browser: move the parameters and watch the ideas of the course at work, one step at a time.
+
+    [:octicons-arrow-right-24: The lab](lab/index.md)
+
+-   :material-download: **Lecture notes in PDF**
+
+    ---
+
+    Lecture notes, exercise books and slides in PDF, with the same numbering as the website.
+
+    [:octicons-arrow-right-24: Downloads](downloads.md)
+
+-   :material-format-list-numbered: **Full index**
+
+    ---
+
+    All the chapters with their sections on one page, and how each chapter is organized.
+
+    [:octicons-arrow-right-24: The index](full-index.md)
 
 </div>
+<!-- /collana-da-non-perdere -->
 
-??? dimostrazione "Proof: opens with a click"
-    All proofs are included, but folded: first read the statement, then open the proof when you want to study it. The same holds for the solutions of the exercises.
+---
+
+<!-- collana -->
+## The series
+
+Ten courses built the same way: lecture notes online and in PDF, exercises with solutions, an interactive lab and self-assessment quizzes.
+
+<div class="grid cards" markdown>
+
+-   :material-function-variant: **[Mathematical Analysis 1](https://fabiofurini.github.io/mathematical-analysis-1/)**
+
+    real numbers, functions, limits, derivatives and series, with interactive graphs
+
+-   :material-matrix: **[Linear Algebra](https://fabiofurini.github.io/linear-algebra/)**
+
+    vectors, matrices, determinants, linear systems and eigenvalues, with the computation lab
+
+-   :material-code-braces: **[Algorithms](https://fabiofurini.github.io/algorithms/)**
+
+    number representation, pseudo-code, sorting and searching, analysis and recursive algorithms
+
+-   :material-vector-triangle: **[Linear Programming](https://fabiofurini.github.io/linear-programming/)**
+
+    polyhedra, the simplex algorithm, duality and the dual simplex, with the interactive lab
+
+-   :material-dots-grid: **[Integer Linear Programming](https://fabiofurini.github.io/integer-linear-programming/)**
+
+    LP relaxation, valid inequalities, cutting planes, branch-and-bound and branch-and-cut
+
+-   :material-vector-curve: **[Convex Optimization](https://fabiofurini.github.io/convex-optimization/)**
+
+    convex sets and functions, convex optimization problems, with interactive graphs
+
+-   :material-graph-outline: **[Network Optimization](https://fabiofurini.github.io/network-optimization/)**
+
+    graphs, spanning trees, shortest paths, network flows, the network simplex and project management
+
+-   :material-hexagon-multiple-outline: **[Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/)**
+
+    knapsack, bin packing, coloring, TSP, scheduling and lot sizing, solved in every way
+
+-   :material-table-large: **Dynamic Programming** · *this course*
+
+    principles and DP algorithms for knapsack, lot sizing, coin change and rod cutting
+
+-   :material-vector-polygon: **[MIP Modelling](https://fabiofurini.github.io/mip-modelling/)**
+
+    integer linear programming models, from the formulation to the solution with solvers
+
+-   :material-chart-timeline-variant: **[Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)**
+
+    modelling and solving optimization problems with Python and solvers
+
+</div>
+<!-- /collana -->
 
 ---
 
