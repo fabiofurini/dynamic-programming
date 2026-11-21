@@ -6,7 +6,7 @@ title: "A first DP algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Miscellaneous problems · Chapter 13** · [:material-book-open-variant: Chapter 13: Rod cutting (RCP)](index.md) · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Rod cutting (RCP)](../exercises/dp-rod-cutting.md)
+**Part 4 · Miscellaneous problems · Chapter 13** · [:material-book-open-variant: Chapter 13: Rod cutting (RCP)](index.md) · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-rod-cutting.pdf) · [:material-pencil: Exercises: Rod cutting (RCP)](../exercises/dp-rod-cutting.md)
 
 </div>
 

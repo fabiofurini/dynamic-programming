@@ -18,7 +18,7 @@ professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
 **The course lecture notes, online**: the principles of dynamic programming and DP algorithms for knapsack problems (0/1, unbounded, bounded, subset sum, multiple-choice, multidimensional, with setups, multiple knapsack), for uncapacitated and capacitated lot sizing, coin change and rod cutting; with recurrences, pseudo-code, complexity, tables worked out step by step, exercises with solutions and interactive apps.
 
-Prerequisites: [Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/) for the problems and [Algorithms](https://fabiofurini.github.io/algorithms/) for pseudo-code, recursion and the analysis of algorithms.
+Prerequisites: [Combinatorial Optimization Problems](https://fabiofurini.github.io/combinatorial-optimization/) for the problems and [Algorithms](https://fabiofurini.github.io/algorithms/) for pseudo-code, recursion and the analysis of algorithms.
 
 [Start :material-arrow-right:](dp-principles/index.md){ .md-button .md-button--primary }
 [:material-pencil: Exercises](exercises/index.md){ .md-button }

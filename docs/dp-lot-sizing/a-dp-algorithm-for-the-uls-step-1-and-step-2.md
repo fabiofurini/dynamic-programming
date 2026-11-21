@@ -6,7 +6,7 @@ title: "A DP algorithm for the ULS: Step 1 and Step 2"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Lot sizing problems · Chapter 10** · [:material-book-open-variant: Chapter 10: Uncapacitated lot sizing (ULS)](index.md) · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Uncapacitated lot sizing (ULS)](../exercises/dp-lot-sizing.md) · [:material-gesture-tap: App: Wagner-Whitin for uncapacitated lot sizing](../lab/wagner-whitin-lot-sizing.md)
+**Part 3 · Lot sizing problems · Chapter 10** · [:material-book-open-variant: Chapter 10: Uncapacitated lot sizing (ULS)](index.md) · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-lot-sizing.pdf) · [:material-pencil: Exercises: Uncapacitated lot sizing (ULS)](../exercises/dp-lot-sizing.md) · [:material-gesture-tap: App: Wagner-Whitin for uncapacitated lot sizing](../lab/wagner-whitin-lot-sizing.md)
 
 </div>
 
@@ -366,7 +366,7 @@ title: "A DP algorithm for the ULS: Step 1 and Step 2"
 
     - After the execution of the DP algorithm, the vector ${v}$ contains the optimal value ${v}[t]$ for every set of periods $\{1,\dots,t\}$.
 
-    - <em>Remark (shortest path).</em> Formula $\eqref{eq:ww}$ computes a shortest path in a network with nodes $0,1,\dots,m$ and one arc from node $j-1$ to node $t$, of cost $c_{j,t}$, for every $j\le t$. The value $v(t)$ is the length of a shortest path from node $0$ to node $t$. This is the shortest-path formulation of the chapter [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/) of the module <em>Combinatorial Optimization</em>, without the capacities: an arc is a production run.
+    - <em>Remark (shortest path).</em> Formula $\eqref{eq:ww}$ computes a shortest path in a network with nodes $0,1,\dots,m$ and one arc from node $j-1$ to node $t$, of cost $c_{j,t}$, for every $j\le t$. The value $v(t)$ is the length of a shortest path from node $0$ to node $t$. This is the shortest-path formulation of the chapter [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/) of the module <em>Combinatorial Optimization Problems</em>, without the capacities: an arc is a production run.
 
 - <u>Step 2</u>: computation of an optimal solution
 

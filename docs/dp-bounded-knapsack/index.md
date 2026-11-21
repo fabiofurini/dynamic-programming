@@ -6,7 +6,7 @@ title: "DP for the bounded knapsack problem"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Knapsack problems · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Bounded knapsack (BKP)](../exercises/dp-bounded-knapsack.md) · [:material-gesture-tap: App: DP tables for the knapsack problems](../lab/dp-knapsack-table.md)
+**Part 2 · Knapsack problems · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-bounded-knapsack.pdf) · [:material-pencil: Exercises: Bounded knapsack (BKP)](../exercises/dp-bounded-knapsack.md) · [:material-gesture-tap: App: DP tables for the knapsack problems](../lab/dp-knapsack-table.md)
 
 </div>
 

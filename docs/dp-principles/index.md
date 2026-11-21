@@ -6,15 +6,15 @@ title: "Principles of dynamic programming"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Principles · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Principles](../exercises/dp-principles.md)
+**Part 1 · Principles · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-principles.pdf) · [:material-pencil: Exercises: Principles](../exercises/dp-principles.md)
 
 </div>
 
 !!! nota "Prerequisites"
 
-    - From the module <em>Combinatorial Optimization</em>, the chapter [«Combinatorial optimization problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/combinatorial-optimization/): the combinatorial optimization problems, their feasible solutions, and the fact that their number grows exponentially.
+    - From the module <em>Combinatorial Optimization Problems</em>, the chapter [«Combinatorial optimization: definitions»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/combinatorial-optimization/): the combinatorial optimization problems, their feasible solutions, and the fact that their number grows exponentially.
 
-    - From the module <em>Combinatorial Optimization</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/): the 0/1 knapsack problem (KP), the running example of the DP algorithms.
+    - From the module <em>Combinatorial Optimization Problems</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/): the 0/1 knapsack problem (KP), the running example of the DP algorithms.
 
     - From the module <em>Algorithms</em>: [pseudocode (Chapter 2)](https://fabiofurini.github.io/algorithms/basic-algorithms/02-pseudo-code/), [recursion (Chapter 14)](https://fabiofurini.github.io/algorithms/recursion/14-recursion/), and the growth of the running time of an algorithm ([Chapter 10 «Asymptotic growth»](https://fabiofurini.github.io/algorithms/asymptotics/10-asymptotic-growth/)).
 

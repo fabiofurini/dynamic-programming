@@ -6,7 +6,7 @@ title: "DP for the capacitated lot sizing problem"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Lot sizing problems · Chapter 11** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Capacitated lot sizing (CLS)](../exercises/dp-capacitated-lot-sizing.md)
+**Part 3 · Lot sizing problems · Chapter 11** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-capacitated-lot-sizing.pdf) · [:material-pencil: Exercises: Capacitated lot sizing (CLS)](../exercises/dp-capacitated-lot-sizing.md)
 
 </div>
 
@@ -14,7 +14,7 @@ title: "DP for the capacitated lot sizing problem"
 
     - From this module, the chapter [«DP for the uncapacitated lot sizing problem»](https://fabiofurini.github.io/dynamic-programming/dp-lot-sizing/): the total demands $D_{j,t}$, the encoding of a production plan and its network, the zero-inventory ordering property, and the instance of its Example 10.1.
 
-    - From the module <em>Combinatorial Optimization</em>, the chapters [«Lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/the-capacitated-lot-sizing-problem/) and [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/): the capacitated problem, its reference instance, and its ILP model with the variables $x_t$, $s_t$, $y_t$.
+    - From the module <em>Combinatorial Optimization Problems</em>, the chapters [«Lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/the-capacitated-lot-sizing-problem/) and [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/): the capacitated problem, its reference instance, and its ILP model with the variables $x_t$, $s_t$, $y_t$.
 
     - From this module, the chapter [«Principles of dynamic programming»](https://fabiofurini.github.io/dynamic-programming/dp-principles/): recurrence, base cases, lookup table and reconstruction of a solution.
 
@@ -22,7 +22,7 @@ title: "DP for the capacitated lot sizing problem"
 
 !!! nota "Where we were"
 
-    - <strong>As a problem and as a model</strong>: the capacitated lot sizing problem and its ILP formulations (chapters [«Lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/) and [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/) of the module <em>Combinatorial Optimization</em>).
+    - <strong>As a problem and as a model</strong>: the capacitated lot sizing problem and its ILP formulations (chapters [«Lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/) and [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/) of the module <em>Combinatorial Optimization Problems</em>).
 
     - <strong>As a table, without capacities</strong>: the DP algorithm of Wagner and Whitin of Chapter 10 [«DP for the uncapacitated lot sizing problem»](../dp-lot-sizing/index.md), over the production runs, in $\Theta(m^2)$ steps.
 
@@ -54,7 +54,7 @@ The problem of this chapter is the [capacitated lot sizing problem (CLS)](https:
 
     the total demand of periods $j,j+1,\dots,t$, with $D_{j,t}=0$ if $j>t$.
 
-- The ILP model is the $\mathrm{ILP}_{\mathrm{CLSP}}$ model of the chapter [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/) of the module <em>Combinatorial Optimization</em>, with the big-M value $\min\{cap_t, D_{t,m}\}$ of period $t$: it is the $\mathrm{ILP}_{\mathrm{ULS}}$ model with the additional constraints $x_t\le cap_t$, for all $t\in T$.
+- The ILP model is the $\mathrm{ILP}_{\mathrm{CLSP}}$ model of the chapter [«Formulations of lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/lot-sizing-formulations/) of the module <em>Combinatorial Optimization Problems</em>, with the big-M value $\min\{cap_t, D_{t,m}\}$ of period $t$: it is the $\mathrm{ILP}_{\mathrm{ULS}}$ model with the additional constraints $x_t\le cap_t$, for all $t\in T$.
 
 - A feasible solution is encoded by the same vector $(x_1,x_2,\dots,x_m)$ as in the ULS, with the inventories $s_t=\sum_{j=1}^{t} x_j-D_{1,t}$, and with the additional requirement $x_t \le cap_t$ for all $t\in T$.
 
@@ -80,7 +80,7 @@ The problem of this chapter is the [capacitated lot sizing problem (CLS)](https:
     \end{array}
     $$
 
-    We refer to this CLS instance as <span style="color:#1971c2">[Example 11.1](#box-1-texcls1)</span>: it is the reference instance of the chapter [«Lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/) of the module <em>Combinatorial Optimization</em>. The optimal solution of the uncapacitated instance, in units of $10$, is the vector $(3,\allowbreak 0,\allowbreak 8,\allowbreak 0,\allowbreak 0)$, of cost $170$: it is not feasible for <span style="color:#1971c2">[Example 11.1](#box-1-texcls1)</span>, since period $3$ produces more than $4$ units.
+    We refer to this CLS instance as <span style="color:#1971c2">[Example 11.1](#box-1-texcls1)</span>: it is the reference instance of the chapter [«Lot sizing problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/) of the module <em>Combinatorial Optimization Problems</em>. The optimal solution of the uncapacitated instance, in units of $10$, is the vector $(3,\allowbreak 0,\allowbreak 8,\allowbreak 0,\allowbreak 0)$, of cost $170$: it is not feasible for <span style="color:#1971c2">[Example 11.1](#box-1-texcls1)</span>, since period $3$ produces more than $4$ units.
 
 ## 11.2 A DP algorithm for the CLS
 

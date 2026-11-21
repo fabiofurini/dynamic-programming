@@ -6,7 +6,7 @@ title: "DP for the multidimensional knapsack problem"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Knapsack problems · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Multidimensional knapsack (MDKP)](../exercises/dp-multidimensional-knapsack.md)
+**Part 2 · Knapsack problems · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-multidimensional-knapsack.pdf) · [:material-pencil: Exercises: Multidimensional knapsack (MDKP)](../exercises/dp-multidimensional-knapsack.md)
 
 </div>
 
@@ -14,7 +14,7 @@ title: "DP for the multidimensional knapsack problem"
 
     - From this module, the chapter [«DP for the 0/1 knapsack problem»](https://fabiofurini.github.io/dynamic-programming/dp-knapsack/): the recurrence $v(j,k)$ of the 0/1 knapsack problem (KP) over items and capacities, the matrix $s$ of the decisions and the reconstruction of a solution.
 
-    - From the module <em>Combinatorial Optimization</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-multidimensional-knapsack-problem/): the multidimensional knapsack problem, with one capacity $c_d$ and one weight $w_{dj}$ for every dimension $d$.
+    - From the module <em>Combinatorial Optimization Problems</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-multidimensional-knapsack-problem/): the multidimensional knapsack problem, with one capacity $c_d$ and one weight $w_{dj}$ for every dimension $d$.
 
     - From the module <em>Algorithms</em>: [pseudocode conventions (Chapter 2)](https://fabiofurini.github.io/algorithms/basic-algorithms/02-pseudo-code/) and [the size of the input (Chapter 11)](https://fabiofurini.github.io/algorithms/analysis/11-input-size/).
 

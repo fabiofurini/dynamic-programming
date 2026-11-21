@@ -6,7 +6,7 @@ title: "DP for the knapsack problem with setups"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Knapsack problems · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: Knapsack with setups (KPS)](../exercises/dp-knapsack-setups.md)
+**Part 2 · Knapsack problems · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides](../pdf/slides-dp-knapsack-setups.pdf) · [:material-pencil: Exercises: Knapsack with setups (KPS)](../exercises/dp-knapsack-setups.md)
 
 </div>
 
@@ -14,7 +14,7 @@ title: "DP for the knapsack problem with setups"
 
     - From this module, the chapter [«DP for the 0/1 knapsack problem»](https://fabiofurini.github.io/dynamic-programming/dp-knapsack/): the recurrence $v(j,k)$ of the 0/1 knapsack problem (KP) over items and capacities, the matrix $s$ of the decisions and the reconstruction of a solution.
 
-    - From the module <em>Combinatorial Optimization</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-knapsack-problem-with-setups/): the knapsack problem with setups, its classes, setup costs $f_h$ and setup weights $s_h$.
+    - From the module <em>Combinatorial Optimization Problems</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-knapsack-problem-with-setups/): the knapsack problem with setups, its classes, setup costs $f_h$ and setup weights $s_h$.
 
     - From the module <em>Algorithms</em>: [pseudocode conventions (Chapter 2)](https://fabiofurini.github.io/algorithms/basic-algorithms/02-pseudo-code/) and [the size of the input (Chapter 11)](https://fabiofurini.github.io/algorithms/analysis/11-input-size/).
 

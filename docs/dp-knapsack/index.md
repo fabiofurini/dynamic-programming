@@ -6,7 +6,7 @@ title: "DP for the 0/1 knapsack problem"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Knapsack problems · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil: Exercises: 0/1 knapsack (KP)](../exercises/dp-knapsack.md) · [:material-gesture-tap: App: DP tables for the knapsack problems](../lab/dp-knapsack-table.md)
+**Part 2 · Knapsack problems · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-presentation: Slides (1/2)](../pdf/slides-dp-knapsack-1.pdf) · [:material-presentation: Slides (2/2)](../pdf/slides-dp-knapsack-2.pdf) · [:material-pencil: Exercises: 0/1 knapsack (KP)](../exercises/dp-knapsack.md) · [:material-gesture-tap: App: DP tables for the knapsack problems](../lab/dp-knapsack-table.md)
 
 </div>
 
@@ -14,15 +14,15 @@ title: "DP for the 0/1 knapsack problem"
 
     - From this module, the chapter [«Principles of dynamic programming»](https://fabiofurini.github.io/dynamic-programming/dp-principles/): optimal substructure, overlapping subproblems, recurrence relations, base cases, and the top-down and bottom-up approaches.
 
-    - From the module <em>Combinatorial Optimization</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/): the 0/1 knapsack problem (KP), the binary encoding of a solution, and the $2^n$ subsets of items.
+    - From the module <em>Combinatorial Optimization Problems</em>, the chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/): the 0/1 knapsack problem (KP), the binary encoding of a solution, and the $2^n$ subsets of items.
 
     - From the module <em>Algorithms</em>: how to read [pseudocode (Chapter 2)](https://fabiofurini.github.io/algorithms/basic-algorithms/02-pseudo-code/), and [the size of the input of an algorithm (Chapter 11)](https://fabiofurini.github.io/algorithms/analysis/11-input-size/) (needed to explain why $\Theta(nc)$ is pseudo-polynomial).
 
 !!! nota "Where we were"
 
-    - <strong>As a problem</strong>: the KP, its instances and the $2^n$ subsets (chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/) of the module <em>Combinatorial Optimization</em>).
+    - <strong>As a problem</strong>: the KP, its instances and the $2^n$ subsets (chapter [«Knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/) of the module <em>Combinatorial Optimization Problems</em>).
 
-    - <strong>As a model</strong>: the ILP model, its LP relaxation and the dual bounds (chapter [«Formulations of knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/knapsack-formulations/) of the module <em>Combinatorial Optimization</em>).
+    - <strong>As a model</strong>: the ILP model, its LP relaxation and the dual bounds (chapter [«Formulations of knapsack problems»](https://fabiofurini.github.io/combinatorial-optimization/formulations/knapsack-formulations/) of the module <em>Combinatorial Optimization Problems</em>).
 
     - <strong>Now, as a table</strong>: the DP algorithm computes the optimal value exactly, with no model and no solver.
 

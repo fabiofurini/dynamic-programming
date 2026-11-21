@@ -5,7 +5,7 @@
 
 - **Website and PDF.** Each chapter of the website is a chapter of the lecture notes, with the same numbers and the same colors; long chapters are split into one page per section.
 - **At the top of each chapter** a bar with the part, the PDF of the lecture notes, the slides, the exercises and the apps of the chapter; at the bottom, the link to the exercises.
-- **The problems.** The definition of each problem is on its page of the course [Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/): each chapter starts with the link.
+- **The problems.** The definition of each problem is on its page of the course [Combinatorial Optimization Problems](https://fabiofurini.github.io/combinatorial-optimization/): each chapter starts with the link.
 
 The boxes have the same colors as in the lecture notes:
 
