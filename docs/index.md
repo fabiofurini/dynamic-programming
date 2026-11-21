@@ -31,9 +31,9 @@ Prerequisites: [Combinatorial Optimization Problems](https://fabiofurini.github.
 <!-- collana-app -->
 ## Try it now
 
-The dynamic programming table for the knapsack: it fills one cell at a time, with the cells it depends on, then the solution is reconstructed.
+The dynamic programming table for the 0/1 knapsack, already filled: each cell is the best profit with the first j items and capacity k, and the green path reconstructs the solution. Press «Run» to watch it fill one cell at a time.
 
-<div class="gi" data-grafico="oc-dp-knapsack"></div>
+<div class="gi" data-grafico="oc-dp-knapsack" data-vetrina="4 | 1"></div>
 
 [:material-gesture-tap: More apps in the lab](lab/index.md){ .md-button }
 <!-- /collana-app -->
