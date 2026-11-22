@@ -4,9 +4,13 @@ title: "Knapsack problems"
 
 # Knapsack problems
 
-*Part 2 of the course: chapters 2–9 of the lecture notes.*
+<div class="info-capitolo" markdown>
 
-[:material-file-pdf-box: Lecture notes (PDF)](pdf/lecture-notes-1-dynamic-programming.pdf){ .md-button } [:material-file-pdf-box: Exercises (PDF)](pdf/exercises-1-dynamic-programming.pdf){ .md-button }
+**Part 2 · Knapsack problems** · 8 chapters · [:material-file-pdf-box: Lecture notes (PDF)](pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil-box-multiple: Exercises (PDF)](pdf/exercises-1-dynamic-programming.pdf)
+
+</div>
+
+DP algorithms for the knapsack family: 0/1, unbounded and bounded knapsack, subset sum, multiple-choice, multidimensional knapsack, knapsack with setups and multiple knapsack. For each problem the recurrence, the table computed step by step and the complexity.
 
 <div class="grid cards" markdown>
 
@@ -16,7 +20,7 @@ title: "Knapsack problems"
 
     Instances and feasible solutions · A first DP algorithm · A second DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-knapsack/index.md) · [Exercises](exercises/dp-knapsack.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-knapsack/index.md) · [Exercises](exercises/dp-knapsack.md) · [Slides](pdf/slides-dp-knapsack-1.pdf)
 
 -   **3. DP for the unbounded knapsack problem**
 
@@ -24,7 +28,7 @@ title: "Knapsack problems"
 
     Instances and feasible solutions · A first DP algorithm · A second DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-unbounded-knapsack/index.md) · [Exercises](exercises/dp-unbounded-knapsack.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-unbounded-knapsack/index.md) · [Exercises](exercises/dp-unbounded-knapsack.md) · [Slides](pdf/slides-dp-unbounded-knapsack.pdf)
 
 -   **4. DP for the bounded knapsack problem**
 
@@ -32,7 +36,7 @@ title: "Knapsack problems"
 
     Instances and feasible solutions · A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-bounded-knapsack/index.md) · [Exercises](exercises/dp-bounded-knapsack.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-bounded-knapsack/index.md) · [Exercises](exercises/dp-bounded-knapsack.md) · [Slides](pdf/slides-dp-bounded-knapsack.pdf)
 
 -   **5. DP for the subset sum problem**
 
@@ -40,7 +44,7 @@ title: "Knapsack problems"
 
     A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-subset-sum/index.md) · [Exercises](exercises/dp-subset-sum.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-subset-sum/index.md) · [Exercises](exercises/dp-subset-sum.md) · [Slides](pdf/slides-dp-subset-sum.pdf)
 
 -   **6. DP for the multiple-choice knapsack problem**
 
@@ -48,7 +52,7 @@ title: "Knapsack problems"
 
     A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-multiple-choice-knapsack/index.md) · [Exercises](exercises/dp-multiple-choice-knapsack.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-multiple-choice-knapsack/index.md) · [Exercises](exercises/dp-multiple-choice-knapsack.md) · [Slides](pdf/slides-dp-multiple-choice-knapsack.pdf)
 
 -   **7. DP for the multidimensional knapsack problem**
 
@@ -56,7 +60,7 @@ title: "Knapsack problems"
 
     A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-multidimensional-knapsack/index.md) · [Exercises](exercises/dp-multidimensional-knapsack.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-multidimensional-knapsack/index.md) · [Exercises](exercises/dp-multidimensional-knapsack.md) · [Slides](pdf/slides-dp-multidimensional-knapsack.pdf)
 
 -   **8. DP for the knapsack problem with setups**
 
@@ -64,7 +68,7 @@ title: "Knapsack problems"
 
     A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-knapsack-setups/index.md) · [Exercises](exercises/dp-knapsack-setups.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-knapsack-setups/index.md) · [Exercises](exercises/dp-knapsack-setups.md) · [Slides](pdf/slides-dp-knapsack-setups.pdf)
 
 -   **9. DP for the multiple knapsack problem**
 
@@ -72,6 +76,6 @@ title: "Knapsack problems"
 
     A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-multiple-knapsack/index.md) · [Exercises](exercises/dp-multiple-knapsack.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-multiple-knapsack/index.md) · [Exercises](exercises/dp-multiple-knapsack.md) · [Slides](pdf/slides-dp-multiple-knapsack.pdf)
 
 </div>

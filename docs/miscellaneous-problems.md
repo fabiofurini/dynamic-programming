@@ -4,9 +4,13 @@ title: "Miscellaneous problems"
 
 # Miscellaneous problems
 
-*Part 4 of the course: chapters 12–13 of the lecture notes.*
+<div class="info-capitolo" markdown>
 
-[:material-file-pdf-box: Lecture notes (PDF)](pdf/lecture-notes-1-dynamic-programming.pdf){ .md-button } [:material-file-pdf-box: Exercises (PDF)](pdf/exercises-1-dynamic-programming.pdf){ .md-button }
+**Part 4 · Miscellaneous problems** · 2 chapters · [:material-file-pdf-box: Lecture notes (PDF)](pdf/lecture-notes-1-dynamic-programming.pdf) · [:material-pencil-box-multiple: Exercises (PDF)](pdf/exercises-1-dynamic-programming.pdf)
+
+</div>
+
+Two classic problems solved by DP, coin change and rod cutting: for each one the recurrence and an example worked out step by step.
 
 <div class="grid cards" markdown>
 
@@ -16,7 +20,7 @@ title: "Miscellaneous problems"
 
     Instances and feasible solutions · A DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-coin-change/index.md) · [Exercises](exercises/dp-coin-change.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-coin-change/index.md) · [Exercises](exercises/dp-coin-change.md) · [Slides](pdf/slides-dp-coin-change.pdf)
 
 -   **13. DP for the rod cutting problem**
 
@@ -24,6 +28,6 @@ title: "Miscellaneous problems"
 
     Instances and feasible solutions · A first DP algorithm · A second DP algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](dp-rod-cutting/index.md) · [Exercises](exercises/dp-rod-cutting.md)
+    [:octicons-arrow-right-24: Read the chapter](dp-rod-cutting/index.md) · [Exercises](exercises/dp-rod-cutting.md) · [Slides](pdf/slides-dp-rod-cutting.pdf)
 
 </div>
