@@ -30,7 +30,7 @@ title: "DP for the multiple-choice knapsack problem"
 
     - count the $\Theta(nc)$ steps of the DP algorithm.
 
-The problem of this chapter is the [multiple-choice knapsack problem (MCKP)](https://fabiofurini.github.io/combinatorial-optimization/catalogue/multiple-choice-knapsack-problem/): its definition and its assumptions are on its page.
+The problem of this chapter is the [multiple-choice knapsack problem (MCKP)](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-multiple-choice-knapsack-problem/#box-14-defMCKP): its definition and its assumptions are on its page.
 
 ## 6.1 A DP algorithm
 

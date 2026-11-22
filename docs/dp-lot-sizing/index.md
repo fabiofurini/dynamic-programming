@@ -38,7 +38,7 @@ title: "DP for the uncapacitated lot sizing problem"
 
     - count the steps of the DP algorithm, and show that they are $\Theta(m^2)$.
 
-The problem of this chapter is the [uncapacitated lot sizing problem (ULS)](https://fabiofurini.github.io/combinatorial-optimization/catalogue/uncapacitated-lot-sizing-problem/): its definition and its assumptions are on its page.
+The problem of this chapter is the [uncapacitated lot sizing problem (ULS)](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/lot-sizing/variants/#box-7-defULS): its definition and its assumptions are on its page.
 
 ## 10.1 Notation, model and feasible solutions
 

@@ -949,7 +949,7 @@ The problem of this chapter is the [capacitated lot sizing problem (CLS)](https:
 
     If $cap_t=C$ for all $t\in T$, there is an optimal solution in which, between two consecutive periods with empty inventory, at most one period produces a quantity strictly between $0$ and $C$; all the other periods produce $0$ or $C$.
 
-- The CLS with constant capacity has its own [page in the catalogue of problems](https://fabiofurini.github.io/combinatorial-optimization/catalogue/capacitated-lot-sizing-with-constant-capacity/).
+- The CLS with constant capacity is in the [catalogue of problems](https://fabiofurini.github.io/combinatorial-optimization/catalogue/#capacitated-lot-sizing-with-constant-capacity), with the other lot sizing problems.
 
 - <span style="color:#1971c2">[Example 11.1](#box-1-texcls1)</span> has constant capacity $C=4$. Its optimal solution $(3,\allowbreak 0,\allowbreak 4,\allowbreak 4,\allowbreak 0)$ has inventories $(1,\allowbreak 0,\allowbreak 1,\allowbreak 1,\allowbreak 0)$, empty at the end of periods $0$, $2$, and $5$.
 

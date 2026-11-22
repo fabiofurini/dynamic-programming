@@ -30,7 +30,7 @@ title: "DP for the multiple knapsack problem"
 
     - count the $\Theta(m\,n\prod_{i=1}^{m}(c_i+1))$ steps and explain why the number of states grows exponentially with $m$.
 
-The problem of this chapter is the [multiple knapsack problem (MKP)](https://fabiofurini.github.io/combinatorial-optimization/catalogue/multiple-knapsack-problem/): its definition and its assumptions are on its page.
+The problem of this chapter is the [multiple knapsack problem (MKP)](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-multiple-knapsack-problem/#box-12-defMKP): its definition and its assumptions are on its page.
 
 ## 9.1 A DP algorithm
 

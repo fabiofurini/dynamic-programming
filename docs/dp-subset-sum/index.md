@@ -30,7 +30,7 @@ title: "DP for the subset sum problem"
 
     - relate $r(j,k)$ to the DP algorithm of the KP with $p_j=w_j$, and count the $\Theta(nc)$ steps.
 
-The problem of this chapter is the [subset sum problem (SSP)](https://fabiofurini.github.io/combinatorial-optimization/catalogue/subset-sum-problem/): its definition and its assumptions are on its page.
+The problem of this chapter is the [subset sum problem (SSP)](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-subset-sum-problem/#box-4-defSSP): its definition and its assumptions are on its page.
 
 ## 5.1 A DP algorithm
 

@@ -30,7 +30,7 @@ title: "DP for the knapsack problem with setups"
 
     - count the $\Theta(nc)$ steps of the DP algorithm.
 
-The problem of this chapter is the [knapsack problem with setups (KPS)](https://fabiofurini.github.io/combinatorial-optimization/catalogue/knapsack-problem-with-setups/): its definition and its assumptions are on its page.
+The problem of this chapter is the [knapsack problem with setups (KPS)](https://fabiofurini.github.io/combinatorial-optimization/combinatorial-optimization-problems/knapsack/the-knapsack-problem-with-setups/#box-16-defKPS): its definition and its assumptions are on its page.
 
 ## 8.1 A DP algorithm
 
