@@ -20,9 +20,6 @@ The course presents dynamic programming: the principles of the method and DP alg
 problems (0/1, unbounded, bounded, subset sum, multiple-choice, multidimensional, with setups, multiple
 knapsack), for uncapacitated and capacitated lot sizing, coin change and rod cutting.
 
-Every chapter has recurrences, pseudo-code, complexity, tables worked out step by step, exercises with
-solutions and interactive apps.
-
 Prerequisites: [Combinatorial Optimization Problems](https://fabiofurini.github.io/combinatorial-optimization/) for the problems and [Algorithms](https://fabiofurini.github.io/algorithms/) for pseudo-code, recursion and the analysis of algorithms.
 
 [Start :material-arrow-right:](dp-principles/index.md){ .md-button .md-button--primary }
